@@ -16,7 +16,10 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 64px 0;
+    margin-top: 0;
+    margin-bottom: 64px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .btn{
     border: 2px solid #E1B168;
@@ -54,7 +57,10 @@ p{
 }
 .menuLi{
     display: inline;
-    margin: 0 32px;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 .ourMenu{
     padding: 48px 0 0 0;
@@ -85,13 +91,19 @@ font-weight: 700;
 margin: 0;
 }
 .listRight{
-    margin: 0 48px;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    margin-left: 48px;
+    margin-right: 48px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .unitDish{
-    margin: 48px 0;
+    margin-top: 48px ;
+    margin-bottom: 48px;
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
 }
 .imgDish{
@@ -101,7 +113,10 @@ margin: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0 0 0 20px;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 0;
     width: fit-content;
 }
 .titleDish{
@@ -118,13 +133,19 @@ font-family: Josefin Sans;
     font-weight: 400;
 }
 .dashDish{
-    margin:4px 0 2px 4px;
+    margin-top: 4px ;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    margin-right: 0;
     height:2px;
     background:
       repeating-linear-gradient(90deg,#d4d4d4 0 4px,#0000 0 8px)
 }
 .priceD{
-    margin: 0 8px 0 0;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 8px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -167,7 +188,10 @@ font-weight: 500;
     align-items: center;
 }
 .footer1{
-    margin: 0 0 64px 0;
+    margin-top: 0 ;
+    margin-bottom: 64px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .footer1P{
     font-size: 22px;
@@ -179,7 +203,10 @@ font-weight: 500;
     justify-content: space-between;
 }
 .footer2{
-    margin: 0 0 64px 0;
+    margin-top: 0 ;
+    margin-bottom: 64px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .comFooter2{
     width: 264px;
@@ -192,7 +219,10 @@ font-weight: 500;
     width: fit-content;
     padding: 6px 0 2px 0;
     letter-spacing: 4.05px;
-    margin: 0 0 32px 0;
+    margin-top: 0 ;
+    margin-bottom: 32px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .comFooter2P{
     font-size: 20px;
@@ -221,7 +251,10 @@ font-weight: 400;
 .centerFooter2P{
     line-height: 1.25;
     width: 306px;
-    margin: 0 0 32px 0;
+    margin-top: 0 ;
+    margin-bottom: 32px;
+    margin-left: 0;
+    margin-right: 0;
     font-size: 20px;
 font-style: normal;
 font-weight: 400;
