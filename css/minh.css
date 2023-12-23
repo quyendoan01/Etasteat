@@ -1,0 +1,265 @@
+body {
+    padding: 0;
+    margin: auto;
+}
+p{
+    margin: 0;
+}
+.background {
+    background: #292E36;
+    padding: 64px 0;
+    font-family: 'Josefin Sans';
+}
+
+.logoLine {
+    padding: 0 14%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 64px 0;
+}
+.btn{
+    border: 2px solid #E1B168;
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+}
+.btnCall {
+    background: none;
+    color: #DEDEDE;
+    padding: 21px 37px;
+    font-size: 20px;
+}
+.btnRes{
+    background: #E1B168;
+    color: #000;
+    padding: 21px 58px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #5C6168;
+    border-bottom: 1px solid #5C6168;
+    padding: 28px 0;
+}
+.menuUl{
+    color: #DEDEDE;
+    list-style-type: none;
+    padding : 0;
+    margin: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.menuLi{
+    display: inline;
+    margin: 0 32px;
+}
+.ourMenu{
+    padding: 48px 0 0 0;
+display: flex;
+justify-content: space-evenly;
+}
+.ourMenuP{
+    color: #FFF;
+font-family: Cormorant Infant;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+border-top: 1px solid #E1B168;
+border-bottom: 1px solid #E1B168;
+}
+.content{
+font-family: Cormorant Infant;
+
+}
+.starters{
+    display: flex;
+    padding: 200px 190px 200px 264px;
+}
+.listTitle{
+    font-size: 40px;
+font-style: normal;
+font-weight: 700;
+margin: 0;
+}
+.listRight{
+    margin: 0 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.unitDish{
+    margin: 48px 0;
+    display: flex;
+}
+.imgDish{
+    border-radius: 50%;
+}
+.desDish{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 0 0 20px;
+    width: fit-content;
+}
+.titleDish{
+    width: 95%;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.detailDish{
+    color: #555;
+font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.dashDish{
+    margin:4px 0 2px 4px;
+    height:2px;
+    background:
+      repeating-linear-gradient(90deg,#d4d4d4 0 4px,#0000 0 8px)
+}
+.priceD{
+    margin: 0 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 10px 0;
+}
+.priceDish{
+    font-size: 30px;
+font-style: normal;
+font-weight: 700;
+}
+.btnDish{
+    background: none;
+    padding: 20px 48px;
+    color: #E1B168;
+    width: fit-content;
+}
+.imgBanner1{
+    width: 100%;
+}
+.mainDish{
+    display: flex;
+    padding: 200px 190px 200px 264px;
+    flex-direction: row-reverse;
+}
+.footer{
+    padding: 100px 0 0 0;
+    background: #1F242C;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: Josefin Sans;
+font-style: normal;
+font-weight: 500;
+
+}
+.fCom{
+    padding: 0 272px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer1{
+    margin: 0 0 64px 0;
+}
+.footer1P{
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+.iconFooter1{
+    width: 156px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer2{
+    margin: 0 0 64px 0;
+}
+.comFooter2{
+    width: 264px;
+}
+.comFooter2Title{
+    font-size: 15px;
+    text-transform: uppercase;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    width: fit-content;
+    padding: 6px 0 2px 0;
+    letter-spacing: 4.05px;
+    margin: 0 0 32px 0;
+}
+.comFooter2P{
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 2;
+}
+.footer3{
+    border-top: 1px solid #575B62;
+    padding: 32px 272px;
+    font-family: Josefin Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+.cE1B168{
+    color: #E1B168
+}
+.centerFooter2{
+    width: 560px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.centerFooter2P{
+    line-height: 1.25;
+    width: 306px;
+    margin: 0 0 32px 0;
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+.centerForm{
+    width: 100%;
+    width: 590px;
+    display: flex;
+}
+.centerInput{
+padding: 20px;
+background: none;
+border: 1px solid #858585;
+font-family: Josefin Sans;
+
+width: 358px;
+color: #fff;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+}
+.btnCenter{
+    color: #292E36;
+    background: #fff;
+    font-family: Josefin Sans;
+    font-size: 22px;
+font-style: normal;
+font-weight: 500;
+padding: 20px 68px;
+border: 1px solid #fff;
+}
+.titleRight{
+    width: 260px;
+    height: 58px;
+}
+.titleRight .comFooter2Title{
+    float: right;
+}
+.tARight{
+    text-align: right;
+}
